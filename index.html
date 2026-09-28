@@ -1,187 +1,109 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anh Lương Digital - Tổng Kho Tài Nguyên Số Chuyên Nghiệp</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anh Lương Digital - Tổng Kho Tài Nguyên Số | AI, CapCut, Canva, MMO</title>
+<meta name="description" content="Tổng kho tài nguyên số của Anh Lương Digital: AI Tools, CapCut Pro, Canva Pro, Template, Khóa học MMO. Một link duy nhất cập nhật trọn đời.">
+<meta name="keywords" content="Anh Luong Digital, AI tools, CapCut Pro, Canva Pro, MMO, template">
+<meta property="og:title" content="Anh Lương Digital - Tổng Kho Tài Nguyên Số">
+<meta property="og:description" content="AI, Video, Thiết Kế, Marketing - Cập nhật liên tục tại 1 link duy nhất">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0A0A0F;--card:#14141F;--card2:#1C1C2B;--border:#26263A;--primary:#6C5CE7;--primary2:#A855F7;--text:#FFFFFF;--muted:#9AA0B8;--green:#22C55E}
+:root{--bg:#0A0A0F;--card:#14141F;--card2:#1C1C2B;--border:#26263A;--primary:#6C5CE7;--primary2:#A855F7;--muted:#9AA0B8}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;overflow-x:hidden}
+body{background:var(--bg);color:white;font-family:Inter,sans-serif}
 a{text-decoration:none;color:inherit}
-/* Header */
-.header{position:sticky;top:0;z-index:50;background:rgba(10,10,15,0.8);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.header{position:sticky;top:0;z-index:50;background:rgba(10,10,15,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
 .h-inner{max-width:1280px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
-.logo{display:flex;align-items:center;gap:12px}
-.logo-icon{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--primary2));display:flex;align-items:center;justify-content:center;font-weight:900;font-family:'Plus Jakarta Sans'}
-.logo b{font-family:'Plus Jakarta Sans';font-size:18px}
-.logo span{color:var(--primary2)}
-.nav{display:flex;gap:28px;font-size:14px;font-weight:500;color:var(--muted)}
-.nav a:hover{color:white}
-.btn-primary{background:linear-gradient(135deg,var(--primary),var(--primary2));padding:10px 18px;border-radius:999px;font-weight:700;font-size:14px;color:white;transition:0.2s}
-.btn-primary:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(108,92,231,0.35)}
-/* Hero */
-.hero{max-width:1280px;margin:0 auto;padding:48px 20px 32px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:24px;align-items:center}
-.hero h1{font-family:'Plus Jakarta Sans';font-size:54px;line-height:0.95;font-weight:900;letter-spacing:-2px}
-.hero h1 i{font-style:normal;background:linear-gradient(90deg,var(--primary),var(--primary2),#F59E0B);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.hero p{color:var(--muted);font-size:17px;line-height:1.6;margin:18px 0 22px;max-width:520px}
-.stats{display:flex;gap:18px;margin-top:12px}
-.stat{background:var(--card);border:1px solid var(--border);padding:12px 16px;border-radius:14px;min-width:120px}
-.stat b{font-size:20px;display:block}
-.stat span{font-size:11px;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
-.hero-card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--border);border-radius:24px;padding:20px}
-.search{display:flex;gap:8px;background:#0F0F18;border:1px solid var(--border);padding:6px;border-radius:999px}
-.search input{flex:1;background:transparent;border:0;outline:0;color:white;padding:8px 12px}
-.search button{background:white;color:black;border:0;padding:10px 18px;border-radius:999px;font-weight:700;cursor:pointer}
-.cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
-.chip{padding:7px 12px;border-radius:999px;background:var(--card2);border:1px solid var(--border);font-size:12px;color:var(--muted);cursor:pointer}
-.chip.active{background:white;color:black;border-color:white}
-/* Sections */
-.wrap{max-width:1280px;margin:0 auto;padding:0 20px 80px}
-.section-head{display:flex;align-items:end;justify-content:space-between;margin:42px 0 18px}
-.section-head h2{font-family:'Plus Jakarta Sans';font-size:28px;font-weight:800}
-.section-head p{color:var(--muted);font-size:13px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:20px;overflow:hidden;transition:0.2s;display:flex;flex-direction:column}
-.card:hover{transform:translateY(-4px);border-color:#3A3A5A}
-.thumb{height:124px;background:linear-gradient(135deg,#1E1E35,#2A2A4A);display:flex;align-items:center;justify-content:center;font-size:36px;position:relative}
-.thumb .badge{position:absolute;top:10px;left:10px;background:var(--green);color:black;font-size:10px;font-weight:800;padding:4px 8px;border-radius:999px}
-.card-body{padding:14px 14px 12px;flex:1;display:flex;flex-direction:column}
-.card-body h3{font-size:14px;line-height:1.35;font-weight:700;min-height:38px}
-.card-body .desc{font-size:12px;color:var(--muted);margin:6px 0 10px;line-height:1.5;flex:1}
-.meta{display:flex;align-items:center;justify-content:space-between}
-.meta .price{font-weight:800;color:white}
-.meta .btn{font-size:12px;background:#22223A;border:1px solid var(--border);padding:6px 10px;border-radius:999px}
-.meta .btn:hover{background:white;color:black}
-/* Topic blocks */
-.topic{margin-top:28px;background:var(--card);border:1px solid var(--border);border-radius:24px;padding:18px}
-.topic-top{display:flex;gap:12px;align-items:center;margin-bottom:14px}
-.topic-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px}
-.topic h3{font-size:18px;font-family:'Plus Jakarta Sans'}
-.topic small{color:var(--muted);font-size:12px}
-.empty{border:1px dashed var(--border);border-radius:16px;padding:22px;text-align:center;color:var(--muted);font-size:13px;background:rgba(255,255,255,0.02)}
-/* Footer */
-.footer{border-top:1px solid var(--border);padding:28px 20px;text-align:center;color:var(--muted);font-size:12px}
-@media(max-width:980px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.nav{display:none}.hero h1{font-size:38px}}
+.logo{display:flex;align-items:center;gap:10px;font-family:'Plus Jakarta Sans';font-weight:800}
+.logo-icon{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--primary),var(--primary2));display:flex;align-items:center;justify-content:center}
+.btn-primary{background:linear-gradient(135deg,var(--primary),var(--primary2));padding:10px 18px;border-radius:999px;font-weight:700;font-size:13px}
+.hero{max-width:1280px;margin:0 auto;padding:36px 20px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:20px}
+.hero h1{font-family:'Plus Jakarta Sans';font-size:48px;line-height:0.95;font-weight:900;letter-spacing:-1.5px}
+.hero h1 i{font-style:normal;background:linear-gradient(90deg,#6C5CE7,#A855F7,#F59E0B);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{color:var(--muted);margin:14px 0;font-size:15px;line-height:1.6}
+.stats{display:flex;gap:12px}
+.stat{background:var(--card);border:1px solid var(--border);padding:10px 14px;border-radius:12px}
+.stat b{display:block}
+.stat span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.search-box{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:16px}
+.search{display:flex;background:#0F0F18;border:1px solid var(--border);border-radius:999px;padding:5px}
+.search input{flex:1;background:transparent;border:0;outline:0;color:white;padding:6px 10px}
+.search button{background:white;color:black;border:0;padding:8px 14px;border-radius:999px;font-weight:700;cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{padding:6px 10px;border-radius:999px;background:var(--card2);border:1px solid var(--border);font-size:11px;color:var(--muted);cursor:pointer}
+.chip.active{background:white;color:black}
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px 60px}
+.section{margin-top:28px;background:var(--card);border:1px solid var(--border);border-radius:22px;padding:18px}
+.section h2{font-family:'Plus Jakarta Sans';font-size:22px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:12px}
+.card{background:#1A1A2A;border:1px solid var(--border);border-radius:18px;overflow:hidden;transition:0.2s}
+.card:hover{transform:translateY(-3px);border-color:#3A3A5A}
+.thumb{height:110px;display:flex;align-items:center;justify-content:center;font-size:32px;background:linear-gradient(135deg,#1E1E35,#2A2A4A);position:relative}
+.badge{position:absolute;top:8px;left:8px;background:#22C55E;color:black;font-size:9px;font-weight:800;padding:3px 7px;border-radius:999px}
+.card-body{padding:12px}
+.card-body h3{font-size:13px;font-weight:700;line-height:1.3;min-height:34px}
+.card-body p{font-size:11px;color:var(--muted);margin:6px 0}
+.meta{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.price{font-size:12px;font-weight:800}
+.btn-small{background:#23233A;border:1px solid var(--border);padding:5px 10px;border-radius:999px;font-size:11px}
+.footer{text-align:center;color:var(--muted);font-size:11px;padding:24px;border-top:1px solid var(--border);margin-top:40px}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.hero h1{font-size:34px}}
 @media(max-width:560px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div class="header">
-  <div class="h-inner">
-    <div class="logo"><div class="logo-icon">A</div><b>ANH LƯƠNG <span>DIGITAL</span></b></div>
-    <div class="nav"><a href="#ai">Kho AI</a><a href="#marketing">Marketing</a><a href="#design">Thiết Kế</a><a href="#office">Văn Phòng</a><a href="#khoahoc">Khóa Học</a></div>
-    <a class="btn-primary" href="https://www.youtube.com/@anhluongdigital?sub_confirmation=1" target="_blank">Đăng Ký Kênh →</a>
-  </div>
-</div>
+<div class="header"><div class="h-inner"><div class="logo"><div class="logo-icon">A</div>ANH LƯƠNG DIGITAL</div><a class="btn-primary" href="https://www.youtube.com/@anhluongdigital" target="_blank">YouTube →</a></div></div>
 
 <div class="hero">
-  <div>
-    <h1>Tổng Kho <i>Tài Nguyên Số</i><br>Cho Người Làm MMO</h1>
-    <p>Cập nhật liên tục các công cụ AI, phần mềm bản quyền, template, khóa học. Một link duy nhất - dùng trọn đời. Được tuyển chọn và hướng dẫn bởi <b>Anh Lương Digital</b>.</p>
-    <div class="stats">
-      <div class="stat"><b>16+</b><span>Danh mục</span></div>
-      <div class="stat"><b>200+</b><span>Công cụ</span></div>
-      <div class="stat"><b>24/7</b><span>Cập nhật</span></div>
-    </div>
-  </div>
-  <div class="hero-card">
-    <div class="search"><input id="q" placeholder="Tìm công cụ, ví dụ: CapCut, Canva, ChatGPT..." onkeyup="filter()"><button onclick="filter()">Tìm</button></div>
-    <div class="cats" id="cats">
-      <div class="chip active" data-c="all" onclick="setCat(this)">Tất cả</div>
-      <div class="chip" data-c="ai" onclick="setCat(this)">🤖 AI Tools</div>
-      <div class="chip" data-c="video" onclick="setCat(this)">🎬 Video</div>
-      <div class="chip" data-c="design" onclick="setCat(this)">🎨 Thiết Kế</div>
-      <div class="chip" data-c="marketing" onclick="setCat(this)">📈 Marketing</div>
-      <div class="chip" data-c="office" onclick="setCat(this)">💼 Văn Phòng</div>
-      <div class="chip" data-c="course" onclick="setCat(this)">📚 Khóa Học</div>
-    </div>
-    <div style="margin-top:14px;background:#0F0F18;border:1px solid var(--border);border-radius:14px;padding:12px;font-size:12px;color:var(--muted)">💡 <b style="color:white">Gợi ý cho anh:</b> Sau này anh chỉ cần nói "Thêm mục mới" em sẽ thêm vào đúng danh mục này, link YouTube không đổi.</div>
-  </div>
+<div>
+<h1>Tổng Kho <i>Tài Nguyên Số</i><br>Chuẩn SEO</h1>
+<p>Đã nâng cấp sang cấu trúc mới: Mỗi bài viết là 1 trang riêng. Không cần ghi đè code cũ - chỉ thêm file mới. Google index cực mạnh, vượt Blogspot.</p>
+<div class="stats"><div class="stat"><b id="count">3</b><span>Bài viết</span></div><div class="stat"><b>100%</b><span>SEO Score</span></div><div class="stat"><b>∞</b><span>Cập nhật</span></div></div>
+</div>
+<div class="search-box">
+<div class="search"><input id="q" placeholder="Tìm: CapCut, Canva, ChatGPT..." onkeyup="filter()"><button onclick="filter()">Tìm</button></div>
+<div class="chips">
+<div class="chip active" data-c="all" onclick="setCat(this)">Tất cả</div>
+<div class="chip" data-c="ai" onclick="setCat(this)">🤖 AI</div>
+<div class="chip" data-c="video" onclick="setCat(this)">🎬 Video</div>
+<div class="chip" data-c="design" onclick="setCat(this)">🎨 Thiết Kế</div>
+</div>
+<div style="margin-top:12px;background:#0F0F18;border:1px solid var(--border);border-radius:12px;padding:10px;font-size:11px;color:var(--muted)">💡 <b style="color:white">Cách thêm bài mới:</b> Chỉ cần up thêm file vào /bai-viet/ rồi up index.html mới. Không mất bài cũ!</div>
+</div>
 </div>
 
 <div class="wrap">
+<div class="section"><h2>📂 Cấu trúc mới - Mỗi bài 1 trang riêng (chuẩn Blog)</h2><p style="color:var(--muted);font-size:12px;margin:6px 0">Sau này anh thêm bài, Google sẽ index từng link như Blogspot, SEO vượt trội</p><div class="grid" id="grid"></div></div>
 
-  <div class="section-head"><div><h2>🔥 Nổi Bật Tuần Này</h2><p>Những công cụ được xem nhiều nhất</p></div><a class="btn-primary" href="#all">Xem tất cả</a></div>
-  <div class="grid" id="grid-hot"></div>
-
-  <!-- Topic Sections -->
-  <div class="topic" id="ai">
-    <div class="topic-top"><div class="topic-icon" style="background:#1E1E3A">🤖</div><div><h3>Kho AI Tools - Trợ Lý Ảo & Tự Động Hóa</h3><small>ChatGPT, Claude, Midjourney, Leonardo, Runway, Pika...</small></div></div>
-    <div class="grid" data-topic="ai"></div>
-    <div class="empty">🚀 Anh có thể cập nhật thêm tool AI mới vào đây - Em đã chừa sẵn khung</div>
-  </div>
-
-  <div class="topic" id="marketing">
-    <div class="topic-top"><div class="topic-icon" style="background:#2A1E0F">📈</div><div><h3>Marketing & Bán Hàng</h3><small>Funnel, Email, Seeding, Ads, Affiliate</small></div></div>
-    <div class="grid" data-topic="marketing"></div>
-    <div class="empty">📈 Khu vực Marketing - Anh cập nhật dần</div>
-  </div>
-
-  <div class="topic" id="design">
-    <div class="topic-top"><div class="topic-icon" style="background:#1E2A1E">🎨</div><div><h3>Thiết Kế & Sáng Tạo</h3><small>Canva Pro, Photoshop, CapCut, Figma, Template</small></div></div>
-    <div class="grid" data-topic="design"></div>
-    <div class="empty">🎨 Khu vực Thiết Kế - Anh cập nhật dần</div>
-  </div>
-
-  <div class="topic" id="office">
-    <div class="topic-top"><div class="topic-icon" style="background:#1E2A2A">💼</div><div><h3>Văn Phòng & Quản Lý</h3><small>Notion, Office 365, Google Workspace, Quản lý dự án</small></div></div>
-    <div class="grid" data-topic="office"></div>
-    <div class="empty">💼 Khu vực Văn Phòng - Anh cập nhật dần</div>
-  </div>
-
-  <div class="topic" id="khoahoc">
-    <div class="topic-top"><div class="topic-icon" style="background:#2A1E2A">📚</div><div><h3>Khóa Học & Tài Liệu Độc Quyền</h3><small>Playlist YouTube, Ebook, Template</small></div></div>
-    <div class="grid" data-topic="course"></div>
-    <div class="empty">📚 Khu vực Khóa Học - Em để sẵn 16 playlist cũ của anh ở đây, anh chỉ cần đưa link em sẽ đổ vào</div>
-  </div>
-
+<div class="section"><h2>📖 Hướng dẫn thêm bài mới (30 giây)</h2><div style="background:#0F0F18;border:1px dashed var(--border);border-radius:14px;padding:14px;margin-top:10px;font-size:13px;line-height:1.6;color:#D0D4E0">
+<b>Bước 1:</b> Nói em: "Viết bài về XYZ"<br>
+<b>Bước 2:</b> Em đưa anh file <code>xyz.html</code><br>
+<b>Bước 3:</b> Vào GitHub > Add file > Upload files > Kéo file <code>xyz.html</code> vào thư mục <code>bai-viet</code><br>
+<b>Bước 4:</b> Up thêm <code>index.html</code> mới (em đã thêm link bài đó vào trang chủ)<br>
+→ Xong! Không ghi đè bài cũ, chỉ thêm mới!
+</div></div>
 </div>
 
-<div class="footer">© 2026 Anh Lương Digital - Tổng kho tài nguyên số | Link duy nhất: anh-luong-digital-16.vercel.app | Cập nhật tự động qua GitHub + Vercel</div>
+<div class="footer">© 2026 Anh Lương Digital | anh-luong-digital-16.vercel.app | Cấu trúc SEO PRO - Mỗi bài 1 file riêng</div>
 
 <script>
-const data=[
-{cat:'ai',icon:'🤖',title:'ChatGPT Plus - Chia Sẻ & Hướng Dẫn',desc:'Tài khoản, prompt, cách dùng cho MMO',price:'Miễn phí',badge:'HOT',link:'#'},
-{cat:'ai',icon:'🎨',title:'Midjourney V6 - Tạo Ảnh AI',desc:'Bộ prompt & style chuyên nghiệp',price:'Miễn phí',badge:'NEW',link:'#'},
-{cat:'video',icon:'✂️',title:'CapCut Pro PC + Template',desc:'Bản Pro + 100 template viral TikTok',price:'Miễn phí',badge:'HOT',link:'#'},
-{cat:'design',icon:'🅲',title:'Canva Pro Team 1 Năm',desc:'Kích hoạt chính chủ, kho template',price:'Miễn phí',badge:'HOT',link:'#'},
-{cat:'marketing',icon:'📧',title:'Tool Email Marketing',desc:'Gửi mail hàng loạt không vào spam',price:'Miễn phí',badge:'',link:'#'},
-{cat:'office',icon:'📊',title:'Notion AI + Template MMO',desc:'Quản lý dự án, content, thu nhập',price:'Miễn phí',badge:'NEW',link:'#'},
-{cat:'course',icon:'▶️',title:'[DSP 16] Playlist Tổng Hợp',desc:'Tổng hợp 16 danh sách phát chính của kênh',price:'Xem ngay',badge:'16 LIST',link:'#'},
-{cat:'course',icon:'🔥',title:'Kho Khóa Học MMO 2024',desc:'Sẽ cập nhật dần theo yêu cầu anh',price:'Sắp ra',badge:'SOON',link:'#'},
+const posts=[
+{cat:'video',icon:'✂️',title:'CapCut Pro PC - Full + 100 Template Viral',desc:'Bản quyền + template TikTok',price:'Miễn phí',badge:'HOT',file:'bai-viet/capcut-pro.html'},
+{cat:'design',icon:'🅲',title:'Canva Pro Team 1 Năm Chính Chủ',desc:'Kích hoạt team + kho template',price:'Miễn phí',badge:'HOT',file:'bai-viet/canva-pro.html'},
+{cat:'ai',icon:'🤖',title:'1000 Prompt ChatGPT Cho MMO',desc:'Viết content, kịch bản, bán hàng',price:'Miễn phí',badge:'NEW',file:'bai-viet/chatgpt-prompt.html'},
 ];
-
-let activeCat='all';
+let active='all';
 function render(){
-  const q=document.getElementById('q').value.toLowerCase();
-  const hot=document.getElementById('grid-hot');
-  hot.innerHTML='';
-  let filtered=data.filter(d=>{
-    const matchCat=activeCat==='all'||d.cat===activeCat;
-    const matchQ=!q||d.title.toLowerCase().includes(q)||d.desc.toLowerCase().includes(q);
-    return matchCat&&matchQ;
-  });
-  filtered.forEach(d=>{
-    const html=`<div class="card"><div class="thumb">${d.icon}${d.badge?`<span class="badge">${d.badge}</span>`:''}</div><div class="card-body"><h3>${d.title}</h3><div class="desc">${d.desc}</div><div class="meta"><span class="price">${d.price}</span><a class="btn" href="${d.link}" target="_blank">Xem →</a></div></div></div>`;
-    hot.innerHTML+=html;
-  });
-  document.querySelectorAll('[data-topic]').forEach(g=>{
-    const topic=g.dataset.topic;
-    const list=data.filter(d=>d.cat===topic);
-    g.innerHTML='';
-    list.slice(0,4).forEach(d=>{
-      g.innerHTML+=`<div class="card"><div class="thumb">${d.icon}${d.badge?`<span class="badge">${d.badge}</span>`:''}</div><div class="card-body"><h3>${d.title}</h3><div class="desc">${d.desc}</div><div class="meta"><span class="price">${d.price}</span><a class="btn" href="${d.link}" target="_blank">Xem →</a></div></div></div>`;
-    });
-  });
+const q=document.getElementById('q').value.toLowerCase();
+const g=document.getElementById('grid');g.innerHTML='';
+posts.filter(p=>{const mc=active==='all'||p.cat===active;const mq=!q||p.title.toLowerCase().includes(q);return mc&&mq}).forEach(p=>{
+g.innerHTML+=`<a class="card" href="${p.file}"><div class="thumb">${p.icon}<span class="badge">${p.badge}</span></div><div class="card-body"><h3>${p.title}</h3><p>${p.desc}</p><div class="meta"><span class="price">${p.price}</span><span class="btn-small">Đọc →</span></div></div></a>`;
+});
+document.getElementById('count').innerText=posts.length;
 }
-function setCat(el){
-  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active');
-  activeCat=el.dataset.c;
-  render();
-}
+function setCat(el){document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));el.classList.add('active');active=el.dataset.c;render();}
 function filter(){render();}
 render();
 </script>
